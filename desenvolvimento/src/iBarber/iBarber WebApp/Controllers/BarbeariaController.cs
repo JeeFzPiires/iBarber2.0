@@ -19,12 +19,12 @@ namespace iBarber_WebApp.Controllers
 
         };*/
 
-        public IActionResult Index(string cnpj, string barbearia, string local)
+        public IActionResult Index(string cnpj, string barbearia, string logradouro)
         {
             var objeto = new Barbearia();
             objeto.CNPJ = cnpj;
             objeto.Nome = barbearia;
-            objeto.Local = local;
+            objeto.Logradouro = logradouro;
 
             return View(objeto);
         }

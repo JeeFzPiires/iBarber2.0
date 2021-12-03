@@ -10,21 +10,29 @@
 <table class="table table-hover ">
     <thead>
         <tr>
-            
+            <th>BarbeariaID</th>
             <th>CNPJ</th>
             <th>Nome</th>
-            <th>Local</th>
-            <th>Ações</th>
+            <th>Telefone</th>
+            <th>Logradouro</th>
+            <th>CEP</th>
+            <th>Bairro</th>
+            <th>Cidade</th>
+            <th>Ações</th> 
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                
+                <td>@item.BarbeariaID</td>
                 <td>@item.CNPJ</td>
                 <td>@item.Nome</td>
-                <td>@item.Local</td>
+                <td>@item.Telefone</td>
+                <td>@item.Logradouro @item.Numero</td>
+                <td>@item.CEP</td>
+                <td>@item.Bairro</td>
+                <td>@item.Cidade</td>
                 <td>
                     <a href="/Barbearia/Editar?cnpj=@item.CNPJ" class="btn btn-sm btn-warning">
                         Editar
@@ -34,5 +42,6 @@
                     </a>
                 </td>
             </tr>
+
         }
     </tbody>

@@ -8,6 +8,18 @@ namespace iBarber.Modelos
     {
         public int AgendamentoID { get; set; }
 
-        public date DatahoraINicio { get; set; }
+        public DateTime DataHoraInicio { get; set; }
+
+        public DateTime DataHoraFinal { get; set; }
+
+        public string ComentarioAvaliacao { get; set; }
+
+        public int EstrelaAvaliacao { get; set; }
+
+        public int BarbeariaID { get; set; }
+
+        public int BarbeiroID { get; set; }
+
+        public int ClienteID { get; set; }
     }
 }

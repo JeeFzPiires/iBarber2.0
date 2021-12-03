@@ -31,7 +31,7 @@ namespace iBarber.Dados.EntityFramework
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Barbearia>()
-                .ToTable("Barbearias")
+                .ToTable("Barbearia")
                 .HasKey("BarbeariaID");
 
             modelBuilder.Entity<Barbearia>()
@@ -47,9 +47,45 @@ namespace iBarber.Dados.EntityFramework
                 .IsRequired();
 
             modelBuilder.Entity<Barbearia>()
-                .Property("Local")
-                .HasColumnName("Local")
+                .Property("Telefone")
+                .HasColumnName("Telefone")
+                .HasColumnType("char(10)")
+                .IsRequired();
+
+            modelBuilder.Entity<Barbearia>()
+                .Property("Logradouro")
+                .HasColumnName("Logradouro")
                 .HasColumnType("varchar(100)")
+                .IsRequired();
+
+            modelBuilder.Entity<Barbearia>()
+                .Property("Numero")
+                .HasColumnName("Numero")
+                .HasColumnType("varchar(10)")
+                .IsRequired();
+
+            modelBuilder.Entity<Barbearia>()
+                .Property("CEP")
+                .HasColumnName("CEP")
+                .HasColumnType("varchar(9)")
+                .IsRequired();
+
+            modelBuilder.Entity<Barbearia>()
+                .Property("Bairro")
+                .HasColumnName("Bairro")
+                .HasColumnType("varchar(50)")
+                .IsRequired();
+
+            modelBuilder.Entity<Barbearia>()
+                .Property("Cidade")
+                .HasColumnName("Cidade")
+                .HasColumnType("varchar(50)")
+                .IsRequired();
+
+            modelBuilder.Entity<Barbearia>()
+                .Property("CNPJ")
+                .HasColumnName("CNPJ")
+                .HasColumnType("char(14)")
                 .IsRequired();
 
             //-------------Model Barbeiro----------------------
@@ -85,26 +121,26 @@ namespace iBarber.Dados.EntityFramework
             modelBuilder.Entity<Agendamento>()
                 .Property("DataHoraInicio")
                 .HasColumnName("DataHoraInicio")
-                .HasColumnType("date")
+                .HasColumnType("datetime")
                 .IsRequired();
 
             modelBuilder.Entity<Agendamento>()
                 .Property("DataHoraFinal")
                 .HasColumnName("DataHoraFinal")
-                .HasColumnType("date")
+                .HasColumnType("datetime")
                 .IsRequired();
 
             modelBuilder.Entity<Agendamento>()
                 .Property("ComentarioAvaliacao")
                 .HasColumnName("ComentarioAvaliacao")
-                .HasColumnType("varchar(200)")
-                .IsRequired();
+                .HasColumnType("varchar(200)");
+
 
             modelBuilder.Entity<Agendamento>()
                 .Property("EstrelaAvaliacao")
                 .HasColumnName("EstrelaAvaliacao")
-                .HasColumnType("char(5)")
-                .IsRequired();
+                .HasColumnType("char(5)");
+                
 
             modelBuilder.Entity<Agendamento>()
                 .Property("BarbeariaID")
@@ -117,6 +153,58 @@ namespace iBarber.Dados.EntityFramework
                 .HasColumnName("BarbeiroID")
                 .HasColumnType("int")
                 .IsRequired();
+
+            //----------- Cliente ----------------
+
+            modelBuilder.Entity<Cliente>()
+               .ToTable("Cliente")
+               .HasKey("ClienteID");
+
+            modelBuilder.Entity<Cliente>()
+                .Property("Nome")
+                .HasColumnName("Nome")
+                .HasColumnType("varchar(200)")
+                .IsRequired();
+
+            modelBuilder.Entity<Cliente>()
+                .Property("Telefone")
+                .HasColumnName("Telefone")
+                .HasColumnType("char(10)")
+                .IsRequired();
+
+            modelBuilder.Entity<Cliente>()
+                .Property("Logradouro")
+                .HasColumnName("Logradouro")
+                .HasColumnType("varchar(100)")
+                .IsRequired();
+
+            modelBuilder.Entity<Cliente>()
+                .Property("Numero")
+                .HasColumnName("Numero")
+                .HasColumnType("varchar(10)")
+                .IsRequired();
+
+            modelBuilder.Entity<Cliente>()
+                .Property("Bairro")
+                .HasColumnName("Bairro")
+                .HasColumnType("varchar(100)")
+                .IsRequired();
+
+            modelBuilder.Entity<Cliente>()
+                .Property("CEP")
+                .HasColumnName("CEP")
+                .HasColumnType("varchar(9)")
+                .IsRequired();
+
+            modelBuilder.Entity<Cliente>()
+                .Property("Cidade")
+                .HasColumnName("Cidade")
+                .HasColumnType("varchar(100)")
+                .IsRequired();
+
+            //--------------
+
+
 
 
             base.OnModelCreating(modelBuilder);

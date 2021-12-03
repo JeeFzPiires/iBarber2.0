@@ -3,8 +3,9 @@
     "",
     "\\iBarber",
     "\\iBarber\\iBarber WebApp",
-    "\\iBarber\\iBarber WebApp\\Controllers"
+    "\\iBarber\\iBarber WebApp\\Controllers",
+    "\\iBarber\\iBarber.Modelos"
   ],
-  "SelectedNode": "\\iBarber\\iBarber WebApp\\Controllers\\BarbeariaController.cs",
+  "SelectedNode": "\\iBarber\\iBarber.Modelos\\Agendamento.cs",
   "PreviewInSolutionExplorer": false
 }
