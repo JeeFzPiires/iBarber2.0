@@ -2,10 +2,7 @@
 
 <form asp-controller="Barbearia" asp-action="AdicionarConfirmacao" method="post">
 
-    <div class="mb-3">
-        <label for="BarbeariaID" class="form-label">ID:</label>
-        <input asp-for="BarbeariaID" type="text" class="form-control" placeholder="Digite o ID da Barbearia " />
-    </div>
+   
     <div class="mb-3">
         <label for="CNPJ" class="form-label">CNPJ:</label>
         <input asp-for="CNPJ" type="text" class="form-control" placeholder="Digite o CNPJ" />
@@ -34,9 +31,22 @@
         <label for="Bairro" class="form-label">Bairro:</label>
         <input asp-for="Bairro" type="text" class="form-control" placeholder="Digite o bairro" />
     </div>
-    <div class="mb-3">
-        <label for="Cidade" class="form-label">Cidade:</label>
-        <input asp-for="Cidade" type="text" class="form-control" placeholder="Digite a cidade" />
+    <div class="dropdown">
+        <label for="Cidade" class="dropdown show">Cidade:</label><br />
+        <a class="btn btn-outline-primary dropdown-toggle" role="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Escolha
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Araxá</a></li>
+            <li><a class="dropdown-item" href="#">Belo Horizonte</a></li>
+            <li><a class="dropdown-item" href="#">Uberlandia</a></li>
+            <li><a class="dropdown-item" href="#">Uberaba</a></li>
+            <li><a class="dropdown-item" href="#">Tapira</a></li>
+            <li><a class="dropdown-item" href="#">Pratinha</a></li>
+        </ul>
+        
+    </div>
     </div>
     <hr />
 

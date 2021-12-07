@@ -40,3 +40,19 @@ C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019
 C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019\iBarber-master\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.dll
 C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019\iBarber-master\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.pdb
 C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019\iBarber-master\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.genruntimeconfig.cache
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\bin\Debug\netcoreapp3.1\iBarber.Dados.deps.json
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\bin\Debug\netcoreapp3.1\iBarber.Dados.runtimeconfig.json
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\bin\Debug\netcoreapp3.1\iBarber.Dados.runtimeconfig.dev.json
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\bin\Debug\netcoreapp3.1\iBarber.Dados.dll
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\bin\Debug\netcoreapp3.1\iBarber.Dados.pdb
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\bin\Debug\netcoreapp3.1\iBarber.Modelos.dll
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\bin\Debug\netcoreapp3.1\iBarber.Modelos.pdb
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.csproj.AssemblyReference.cache
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.AssemblyInfoInputs.cache
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.AssemblyInfo.cs
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.csproj.CoreCompileInputs.cache
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.csproj.CopyComplete
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.dll
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.pdb
+C:\Users\Jeferson Piires\Documents\Visual Studio 2019\iBarber-main\iBarber2.0\desenvolvimento\src\iBarber\iBarber.Dados\obj\Debug\netcoreapp3.1\iBarber.Dados.genruntimeconfig.cache

@@ -6060,19 +6060,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ins-Ti\\.nuget\\packages\\": {}
+    "C:\\Users\\Jeferson Piires\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber-master\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\iBarber WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\iBarber WebApp.csproj",
       "projectName": "iBarber WebApp",
-      "projectPath": "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber-master\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\iBarber WebApp.csproj",
-      "packagesPath": "C:\\Users\\Ins-Ti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber-master\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\obj\\",
+      "projectPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\iBarber WebApp.csproj",
+      "packagesPath": "C:\\Users\\Jeferson Piires\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ins-Ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jeferson Piires\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6086,11 +6086,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber-master\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj": {
-              "projectPath": "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber-master\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj"
+            "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj": {
+              "projectPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj"
             },
-            "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber-master\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj": {
-              "projectPath": "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber-master\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj"
+            "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj": {
+              "projectPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj"
             }
           }
         }
@@ -6120,12 +6120,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.21, 3.1.21]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6134,7 +6128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3,8 +3,11 @@
     "",
     "\\desenvolvimento",
     "\\desenvolvimento\\src",
-    "\\desenvolvimento\\src\\iBarber"
+    "\\desenvolvimento\\src\\iBarber",
+    "\\desenvolvimento\\src\\iBarber\\iBarber WebApp",
+    "\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\Views",
+    "\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\Views\\Barbearia"
   ],
-  "SelectedNode": "\\desenvolvimento\\src\\iBarber\\iBarber.sln",
+  "SelectedNode": "\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\Views\\Barbearia\\Adicionar.cshtml",
   "PreviewInSolutionExplorer": false
 }
