@@ -79,15 +79,9 @@ namespace iBarber.Dados.EntityFramework
             modelBuilder.Entity<Barbearia>()
                 .Property("Cidade")
                 .HasColumnName("Cidade")
-                .HasColumnType("varchar(50)")
-                .IsRequired();
+                .HasColumnType("varchar(50)");
 
-            modelBuilder.Entity<Barbearia>()
-                .Property("CNPJ")
-                .HasColumnName("CNPJ")
-                .HasColumnType("char(14)")
-                .IsRequired();
-
+            
             //-------------Model Barbeiro----------------------
 
             modelBuilder.Entity<Barbeiro>()
@@ -121,14 +115,15 @@ namespace iBarber.Dados.EntityFramework
             modelBuilder.Entity<Agendamento>()
                 .Property("DataHoraInicio")
                 .HasColumnName("DataHoraInicio")
-                .HasColumnType("datetime")
-                .IsRequired();
+                .HasColumnType("datetime");
+
+
 
             modelBuilder.Entity<Agendamento>()
                 .Property("DataHoraFinal")
                 .HasColumnName("DataHoraFinal")
-                .HasColumnType("datetime")
-                .IsRequired();
+                .HasColumnType("datetime");
+                
 
             modelBuilder.Entity<Agendamento>()
                 .Property("ComentarioAvaliacao")
@@ -148,11 +143,7 @@ namespace iBarber.Dados.EntityFramework
                 .HasColumnType("int")
                 .IsRequired();
 
-            modelBuilder.Entity<Agendamento>()
-                .Property("BarbeiroID")
-                .HasColumnName("BarbeiroID")
-                .HasColumnType("int")
-                .IsRequired();
+           
 
             //----------- Cliente ----------------
 

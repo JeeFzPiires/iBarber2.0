@@ -72,7 +72,7 @@ namespace iBarber_WebApp.Controllers
 
         public IActionResult Listar()
         {
-            //SELECT * FROM Estado
+            //SELECT * FROM Barbearias
             var listaDeBarbearias = new Contexto().Barbearia.ToList();
 
             return View(listaDeBarbearias);

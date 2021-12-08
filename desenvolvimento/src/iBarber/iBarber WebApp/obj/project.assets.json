@@ -6060,20 +6060,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jeferson Piires\\.nuget\\packages\\": {}
+    "C:\\Users\\040690\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\iBarber WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\040690\\Documents\\Visual Studio 2019\\iBarber\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\iBarber WebApp.csproj",
       "projectName": "iBarber WebApp",
-      "projectPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\iBarber WebApp.csproj",
-      "packagesPath": "C:\\Users\\Jeferson Piires\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\obj\\",
+      "projectPath": "C:\\Users\\040690\\Documents\\Visual Studio 2019\\iBarber\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\iBarber WebApp.csproj",
+      "packagesPath": "C:\\Users\\040690\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\040690\\Documents\\Visual Studio 2019\\iBarber\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber WebApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Jeferson Piires\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\040690\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6086,11 +6094,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj": {
-              "projectPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj"
+            "C:\\Users\\040690\\Documents\\Visual Studio 2019\\iBarber\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj": {
+              "projectPath": "C:\\Users\\040690\\Documents\\Visual Studio 2019\\iBarber\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj"
             },
-            "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj": {
-              "projectPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj"
+            "C:\\Users\\040690\\Documents\\Visual Studio 2019\\iBarber\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj": {
+              "projectPath": "C:\\Users\\040690\\Documents\\Visual Studio 2019\\iBarber\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj"
             }
           }
         }
