@@ -81,9 +81,12 @@ namespace iBarber.Dados.EntityFramework
                 .IsRequired();
 
             modelBuilder.Entity<Barbearia>()
-                .Property("Cidade")
-                .HasColumnName("Cidade")
+                .Property("CidadeID")
+                .HasColumnName("CidadeID")
                 .HasColumnType("varchar(50)");
+
+            modelBuilder.Entity<Barbearia>()
+                .HasKey(b => new { b.CidadeID, b.BarbeariaID });
 
             
             //-------------Model Barbeiro----------------------

@@ -20,7 +20,7 @@ namespace iBarber.Modelos
 
         public string Bairro { get; set; }
 
-        public Cidade Cidade { get; set; }
+        public Cidade CidadeID { get; set; }
 
         public string CNPJ { get; set; }
     }

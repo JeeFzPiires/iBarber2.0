@@ -34,8 +34,8 @@
     <div class="mb-3">
         <label for="Cidade" class="form-label">Cidade:</label>
         @Html.DropDownListFor(
-                item => item.Cidade,
-                new SelectList(ViewBag.Cidade, "UF", "Nome"),
+                item => item.CidadeID,
+                new SelectList(ViewBag.Cidade, "CidadeID", "Nome"),
                 "-- Selecione --",
                 new { @class = "form-control" }
             )

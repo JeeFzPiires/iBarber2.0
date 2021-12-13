@@ -6040,19 +6040,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jeferson Piires\\.nuget\\packages\\": {}
+    "C:\\Users\\Ins-Ti\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj",
+      "projectUniqueName": "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber 2.0\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj",
       "projectName": "iBarber.Dados",
-      "projectPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj",
-      "packagesPath": "C:\\Users\\Jeferson Piires\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\obj\\",
+      "projectPath": "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber 2.0\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\iBarber.Dados.csproj",
+      "packagesPath": "C:\\Users\\Ins-Ti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber 2.0\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Dados\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jeferson Piires\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ins-Ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6066,8 +6066,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj": {
-              "projectPath": "C:\\Users\\Jeferson Piires\\Documents\\Visual Studio 2019\\iBarber-main\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj"
+            "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber 2.0\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj": {
+              "projectPath": "C:\\Users\\Ins-Ti\\OneDrive - Instale Tecnologia Ltda\\Documentos\\Visual Studio 2019\\iBarber 2.0\\iBarber2.0\\desenvolvimento\\src\\iBarber\\iBarber.Modelos\\iBarber.Modelos.csproj"
             }
           }
         }
@@ -6110,7 +6110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
