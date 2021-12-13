@@ -1,0 +1,26 @@
+#CardLogin{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 20px #000000;
+    color: #d9d9d9;
+    background-color: #343434;
+    border-color: #ff7b03;
+    opacity: 0.9;
+}
+
+#TelaLogin{
+    
+    background-color: #343434;
+}
+
+#TituloLogin{
+    color: #d9d9d9;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

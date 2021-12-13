@@ -33,7 +33,10 @@ namespace iBarber_WebApp.Controllers
 
         public IActionResult Adicionar()
         {
+            var db = new Contexto();
+            ViewBag.Cidade = db.Cidade.ToList();
             return View();
+            
         }
 
         public IActionResult AdicionarConfirmacao(Barbearia barbearia)

@@ -27,6 +27,10 @@ namespace iBarber.Dados.EntityFramework
 
         public DbSet<Agendamento> Agendamento { get; set; }
 
+        public DbSet<Cliente> Cliente { get; set; }
+
+        public DbSet<Cidade> Cidade { get; set; }
+
         //Definição das características das classes com as tabelas
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -195,7 +199,36 @@ namespace iBarber.Dados.EntityFramework
 
             //--------------
 
+            modelBuilder.Entity<Cidade>()
+               .ToTable("Cidade")
+               .HasKey("CidadeID");
 
+            modelBuilder.Entity<Cidade>()
+                .Property("CidadeID")
+                .HasColumnName("CidadeID")
+                .HasColumnType("int")
+                .IsRequired();
+
+            modelBuilder.Entity<Cidade>()
+                .Property("UF")
+                .HasColumnName("UF")
+                .HasColumnType("varchar(2)")
+                .IsRequired();
+
+
+            modelBuilder.Entity<Cidade>()
+                .Property("Nome")
+                .HasColumnName("Nome")
+                .HasColumnType("varchar(100)")
+                .IsRequired();
+
+            modelBuilder.Entity<Cidade>()
+                .Property("Estado")
+                .HasColumnName("Estado")
+                .HasColumnType("varchar(50)");
+
+
+            
 
 
             base.OnModelCreating(modelBuilder);

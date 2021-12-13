@@ -23,6 +23,12 @@ a {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+.container {
+    background-color: #343434;
+}
+.header {
+    background-color: #343434;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -54,13 +60,15 @@ button.accept-policy {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    background-color: #343434;
 }
 
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: #343434;
 }
 .footer {
   position: absolute;
@@ -69,3 +77,71 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff7b03' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff7b03' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 {
+    background-color: #343434;
+}
+
+#offcanvasNavbar {
+    background-color: #343434;
+}
+
+#offcanvasNavbarLabel {
+    color: #d9d9d9;
+}
+
+#carouselExampleIndicators {
+    margin-top: 5%;
+}
+
+#PreviousBotton {
+    color: #ff7b03;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff7b03' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff7b03' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#CardBarbearia {
+    border-color: #ff7b03;
+    background-color: #d9d9d9;
+}
+
+#ButtonNavBarParceiro {
+    color: #ff7b03;
+    border-color: #d9d9d9;
+}
+
+#ButtonNavBarLogin {
+    color: #d9d9d9;
+    border-color: #ff7b03;
+    margin-left: -25%;
+    transform: translate(-50%);
+    position: relative;
+}
+
+#LogoiBarberNavBar {
+    margin-left: 20%;
+    transform: translate(-50%);
+    position: relative;
+    color: #d9d9d9;
+}
+
+#iBarberFooter {
+    color: #ff7b03;
+}
+
+
+
