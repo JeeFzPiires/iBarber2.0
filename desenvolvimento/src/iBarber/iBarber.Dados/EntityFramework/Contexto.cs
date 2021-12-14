@@ -39,21 +39,28 @@ namespace iBarber.Dados.EntityFramework
                 .HasKey("BarbeariaID");
 
             modelBuilder.Entity<Barbearia>()
+                .Property("BarbeariaID")
+                .HasColumnName("BarbeariaID")
+                .HasColumnType("int")
+                .UseIdentityColumn()
+                .IsRequired();
+
+            modelBuilder.Entity<Barbearia>()
+                .Property("Nome")
+                .HasColumnName("Nome")
+                .HasColumnType("varchar(200)")
+                .IsRequired();
+
+            modelBuilder.Entity<Barbearia>()
                 .Property("CNPJ")
                 .HasColumnName("CNPJ")
                 .HasColumnType("char(14)")
                 .IsRequired();
 
             modelBuilder.Entity<Barbearia>()
-                .Property("Nome")
-                .HasColumnName("Nome")
-                .HasColumnType("varchar(100)")
-                .IsRequired();
-
-            modelBuilder.Entity<Barbearia>()
                 .Property("Telefone")
                 .HasColumnName("Telefone")
-                .HasColumnType("char(10)")
+                .HasColumnType("varchar(10)")
                 .IsRequired();
 
             modelBuilder.Entity<Barbearia>()
@@ -83,7 +90,7 @@ namespace iBarber.Dados.EntityFramework
             modelBuilder.Entity<Barbearia>()
                 .Property("CidadeID")
                 .HasColumnName("CidadeID")
-                .HasColumnType("varchar(50)");
+                .HasColumnType("int");
 
             modelBuilder.Entity<Barbearia>()
                 .HasKey(b => new { b.CidadeID, b.BarbeariaID });
@@ -225,10 +232,7 @@ namespace iBarber.Dados.EntityFramework
                 .HasColumnType("varchar(100)")
                 .IsRequired();
 
-            modelBuilder.Entity<Cidade>()
-                .Property("Estado")
-                .HasColumnName("Estado")
-                .HasColumnType("varchar(50)");
+       
 
 
             
