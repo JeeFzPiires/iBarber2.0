@@ -20,6 +20,8 @@ namespace iBarber.Modelos
 
         public string CEP { get; set; }
 
-        public string Cidade { get; set; }
+        public int CidadeID { get; set; }
+
+        public Cidade Cidade { get; set; }
     }
 }

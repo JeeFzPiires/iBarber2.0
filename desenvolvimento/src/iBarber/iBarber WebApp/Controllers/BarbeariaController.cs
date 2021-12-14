@@ -69,7 +69,9 @@ namespace iBarber_WebApp.Controllers
         public IActionResult Editar(string cnpj)
         {
             var db = new Contexto();
+            ViewBag.Cidade = db.Cidade.ToList();
             var barbearia = db.Barbearia.First(item => item.CNPJ == cnpj);
+            
             return View("Adicionar", barbearia);
         }
 

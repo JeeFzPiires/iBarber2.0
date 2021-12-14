@@ -92,8 +92,7 @@ namespace iBarber.Dados.EntityFramework
                 .HasColumnName("CidadeID")
                 .HasColumnType("int");
 
-            modelBuilder.Entity<Barbearia>()
-                .HasKey(b => new { b.CidadeID, b.BarbeariaID });
+           
 
             
             //-------------Model Barbeiro----------------------
@@ -127,6 +126,12 @@ namespace iBarber.Dados.EntityFramework
                .HasKey("AgendamentoID");
 
             modelBuilder.Entity<Agendamento>()
+                .Property("AgendamentoID")
+                .HasColumnName("AgendamentoID")
+                .HasColumnType("int")
+                .IsRequired();
+
+            modelBuilder.Entity<Agendamento>()
                 .Property("DataHoraInicio")
                 .HasColumnName("DataHoraInicio")
                 .HasColumnType("datetime");
@@ -157,7 +162,18 @@ namespace iBarber.Dados.EntityFramework
                 .HasColumnType("int")
                 .IsRequired();
 
-           
+            modelBuilder.Entity<Agendamento>()
+                .Property("BarbeiroID")
+                .HasColumnName("BarbeiroID")
+                .HasColumnType("int")
+                .IsRequired();
+
+            modelBuilder.Entity<Agendamento>()
+                .Property("ClienteID")
+                .HasColumnName("ClienteID")
+                .HasColumnType("int")
+                .IsRequired();
+
 
             //----------- Cliente ----------------
 
@@ -202,8 +218,8 @@ namespace iBarber.Dados.EntityFramework
                 .IsRequired();
 
             modelBuilder.Entity<Cliente>()
-                .Property("Cidade")
-                .HasColumnName("Cidade")
+                .Property("CidadeID")
+                .HasColumnName("CidadeID")
                 .HasColumnType("varchar(100)")
                 .IsRequired();
 

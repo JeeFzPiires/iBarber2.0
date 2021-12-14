@@ -8,17 +8,16 @@ using System.Threading.Tasks;
 
 namespace iBarber_WebApp.Controllers
 {
-    public class CidadeController : Controller
+    public class ClienteController : Controller
     {
         public IActionResult Adicionar()
         {
-            var db = new Contexto();
-            ViewBag.Barbearia = db.Barbearia.ToList();
+           
             return View();
         }
 
         [HttpPost]
-        public IActionResult AdicionarConfirmacao(Cidade cidade)
+        public IActionResult AdicionarConfirmacao(Cliente cliente)
         {
             return RedirectToAction("Listar");
         }

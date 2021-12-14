@@ -1,55 +1,58 @@
 ﻿@model iBarber.Modelos.Barbearia
-<br /><br /><br />
 
-<form asp-controller="Barbearia" asp-action="AdicionarConfirmacao" method="post" style="background-color: #343434; color: #d9d9d9;">
 
-   
-    <div class="mb-3">
-        <label for="CNPJ" class="form-label">CNPJ:</label>
-        <input asp-for="CNPJ" type="text" class="form-control" placeholder="Digite o CNPJ" style="background-color: transparent;/>
-    </div>
-    <div class="mb-3">
-        <label for="Nome" class="form-label">Nome:</label>
-        <input asp-for="Nome" type="text" class="form-control" placeholder="Digite o nome da Barbearia" style="background-color: transparent;"/>
-    </div>
-    <div class="mb-3">
-        <label for="Telefone" class="form-label">Telefone:</label>
-        <input asp-for="Telefone" type="text" class="form-control" placeholder="Digite o telefone da sua barbearia" style="background-color: transparent;/>
-    </div>
-    <div class="mb-3">
-        <label for="Logradouro" class="form-label">Logradouro:</label>
-        <input asp-for="Logradouro" type="text" class="form-control" placeholder="Digite o local da Barbearia" style="background-color: transparent;/>
-    </div>
-    <div class="mb-3">
-        <label for="Numero" class="form-label">Numero:</label>
-        <input asp-for="Numero" type="text" class="form-control" placeholder="Digite o numero da sua Barbearia" style="background-color: transparent;/>
-    </div>
-    <div class="mb-3">
-        <label for="CEP" class="form-label">CEP:</label>
-        <input asp-for="CEP" type="text" class="form-control" placeholder="Digite o CEP" style="background-color: transparent;/>
-    </div>
-    <div class="mb-3">
-        <label for="Bairro" class="form-label">Bairro:</label>
-        <input asp-for="Bairro" type="text" class="form-control" placeholder="Digite o bairro" style="background-color: transparent;/>
-    </div>
-    <div class="mb-3">
-        <label for="Cidade" class="form-label">Cidade:</label>
-        @Html.DropDownListFor(
-                item => item.CidadeID,
-                new SelectList(ViewBag.Cidade, "CidadeID", "Nome"),
-                "-- Selecione --",
-                new { @class = "form-control" }
-            )
-    </div>
-    </div>
-    <hr />
 
-    <a href="#" class="btn btn-secondary" onclick="javascript:history.back()">
-        VOLTAR
-    </a>
+<body style="background-color: #343434; color: #d9d9d9;">
+    <form asp-controller="Barbearia" asp-action="AdicionarConfirmacao" method="post" style="background-color: #343434; color: #d9d9d9; margin-top: 65px;">
 
-    <button type="submit" class="btn btn-success float-right">
-        SALVAR
-    </button>
 
-</form>
+        <div class="col-md-4">
+            <label for="CNPJ" class="form-label">CNPJ:</label>
+            <input asp-for="CNPJ" type="text" class="form-control" placeholder="Digite o CNPJ" style="background-color: transparent; color: #d9d9d9;" />
+        </div>
+        <div class="col-md-4" >
+            <label for="Nome" class="form-label">Nome:</label>
+            <input asp-for="Nome" type="text" class="form-control" placeholder="Digite o nome da Barbearia" style="background-color: transparent; color: #d9d9d9;"  />
+        </div>
+        <div class="col-md-4" >
+            <label for="Telefone" class="form-label">Telefone:</label>
+            <input asp-for="Telefone" type="text" class="form-control" placeholder="Digite o telefone da sua barbearia" style="background-color: transparent; color: #d9d9d9;" />
+        </div>
+        <div class="col-md-4" >
+            <label for="Logradouro" class="form-label">Logradouro:</label>
+            <input asp-for="Logradouro" type="text" class="form-control" placeholder="Digite o local da Barbearia" style="background-color: transparent; color: #d9d9d9;" />
+        </div>
+        <div class="col-md-4" >
+            <label for="Numero" class="form-label">Numero:</label>
+            <input asp-for="Numero" type="text" class="form-control" placeholder="Digite o numero da sua Barbearia" style="background-color: transparent; color: #d9d9d9;" />
+        </div>
+        <div class="col-md-4" >
+            <label for="CEP" class="form-label">CEP:</label>
+            <input asp-for="CEP" type="text" class="form-control" placeholder="Digite o CEP" style="background-color: transparent; color: #d9d9d9;" />
+        </div>
+        <div class="col-md-4" >
+            <label for="Bairro" class="form-label">Bairro:</label>
+            <input asp-for="Bairro" type="text" class="form-control" placeholder="Digite o bairro" style="background-color: transparent; color: #d9d9d9;" />
+        </div>
+        <div class="col-md-4">
+            <label for="Cidade" class="form-label">Cidade:</label>
+            @Html.DropDownListFor(
+                    item => item.CidadeID,
+                    new SelectList(ViewBag.Cidade, "CidadeID", "Nome"),
+                    "-- Selecione --",
+                    new { @class = "form-control" }
+                )
+        </div>
+        
+        <hr />
+
+        <a href="#" class="btn btn-secondary" onclick="javascript:history.back()">
+            VOLTAR
+        </a>
+
+        <button type="submit" class="btn btn-success float-right">
+            SALVAR
+        </button>
+
+    </form>
+</body>

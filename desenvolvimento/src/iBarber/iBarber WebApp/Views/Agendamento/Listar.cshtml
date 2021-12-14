@@ -1,0 +1,49 @@
+﻿@model List<iBarber.Modelos.Agendamento>
+
+@{ ViewData["Title"] = "Agendamentos";
+}
+
+<body id="CardBarbearia" style="background-color: #343434; color: #d9d9d9; margin-top: 65px;">
+    <h3 style="background-color: #343434; color: #d9d9d9">
+        AGENDAMENTOS
+        <a class="btn btn-sm btn-primary float-right" href="/Agendamento/Listar">
+            + AGENDAR
+        </a>
+    </h3>
+
+    <table class="table table-hover table-dark table-striped">
+        <thead>
+            <tr>
+                <th>AgendamentoID</th>
+                <th>Data e Hora Inicio</th>
+                <th>Data e Hora Final</th>
+                <th>Barbearia</th>
+                <th>Barbeiro</th>
+                <th>Nome Cliente</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.AgendamentoID</td>
+                    <td>@item.DataHoraInicio</td>
+                    <td>@item.DataHoraFinal</td>
+                    <td>@item.BarbeariaID</td>
+                    <td>@item.BarbeiroID</td>
+                    <td>@item.ClienteID</td>
+                    <td></td>
+                    <td>
+                        <a href="/Agendamento/Editar?agendamentoID=@item.AgendamentoID" class="btn btn-sm btn-warning">
+                            Editar
+                        </a>
+                        <a href="/Agendamento/Excluir?agendamentoID=@item.AgendamentoID" class="btn btn-sm btn-danger">
+                            Excluir
+                        </a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+</body>

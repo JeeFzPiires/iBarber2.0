@@ -565,3 +565,6 @@ C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019
 C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019\iBarber 2.0\iBarber2.0\desenvolvimento\src\iBarber\iBarber WebApp\obj\Debug\netcoreapp3.1\iBarber WebApp.dll
 C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019\iBarber 2.0\iBarber2.0\desenvolvimento\src\iBarber\iBarber WebApp\obj\Debug\netcoreapp3.1\iBarber WebApp.pdb
 C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019\iBarber 2.0\iBarber2.0\desenvolvimento\src\iBarber\iBarber WebApp\obj\Debug\netcoreapp3.1\iBarber WebApp.genruntimeconfig.cache
+C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019\iBarber 2.0\iBarber2.0\desenvolvimento\src\iBarber\iBarber WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Agendamento\Listar.cshtml.g.cs
+C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019\iBarber 2.0\iBarber2.0\desenvolvimento\src\iBarber\iBarber WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Adicionar.cshtml.g.cs
+C:\Users\Ins-Ti\OneDrive - Instale Tecnologia Ltda\Documentos\Visual Studio 2019\iBarber 2.0\iBarber2.0\desenvolvimento\src\iBarber\iBarber WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Listar.cshtml.g.cs

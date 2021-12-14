@@ -21,5 +21,11 @@ namespace iBarber.Modelos
         public int BarbeiroID { get; set; }
 
         public int ClienteID { get; set; }
+
+        public Barbearia Barbearia { get; set; }
+
+        public Barbeiro Barbeiro { get; set; }
+
+        public Cliente Cliente { get; set; }
     }
 }
