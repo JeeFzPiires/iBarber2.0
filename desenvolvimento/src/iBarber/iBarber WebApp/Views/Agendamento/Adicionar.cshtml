@@ -3,16 +3,19 @@
 <body style="background-color: #343434; color: #d9d9d9;">
     <form asp-controller="Agendamento" asp-action="AdicionarConfirmacao" method="post" style="background-color: #343434; color: #d9d9d9; margin-top: 65px;">
 
-
         <div class="col-md-4">
-            <label for="DataHoraInicio" class="form-label">CNPJ:</label>
-            <input asp-for="DataHoraInicio" type="datetime" class="form-control" placeholder="Coloque a data e o horario que deseja" style="background-color: transparent; color: #d9d9d9;" />
+            <label for="AgendamentoID" class="form-label">AgendamentoID:</label>
+            <input asp-for="AgendamentoID" type="number" class="form-control" placeholder="Numero do agendamento" style="background-color: transparent; color: #d9d9d9;" />
         </div>
         <div class="col-md-4">
-            <label for="DataHoraFinal" class="form-label">Nome:</label>
-            <input asp-for="DataHoraFinal" type="datetime" class="form-control" placeholder="Coloque a data e o horario final" style="background-color: transparent; color: #d9d9d9;" />
+            <label for="DataHoraInicio" class="form-label">Data e Hora que deseja:</label>
+            <input asp-for="DataHoraInicio" type="datetime" class="form-control" placeholder="DD/MM/AAAA e HH:HH" style="background-color: transparent; color: #d9d9d9;" />
         </div>
         <div class="col-md-4">
+            <label for="DataHoraFinal" class="form-label">Data e Hora Final:</label>
+            <input asp-for="DataHoraFinal" type="datetime" class="form-control" placeholder="DD/MM/AAAA e HH:HH" style="background-color: transparent; color: #d9d9d9;" />
+        </div>
+        <div class="col-md-3">
             <label for="Cliente" class="form-label">Cliente:</label>
             @Html.DropDownListFor(
                     item => item.ClienteID,
@@ -20,33 +23,33 @@
                     "-- Selecione --",
                     new { @class = "form-control" }
                 )
-        <div class="col-md-4">
-            <label for="Barbearia" class="form-label">Barbearia:</label>
-            @Html.DropDownListFor(
-                    item => item.BarbeariaID,
-                    new SelectList(ViewBag.Barbearia, "BarbeariaID", "Nome"),
-                    "-- Selecione --",
-                    new { @class = "form-control" }
-                )
-        <div class="col-md-4">
-            <label for="Barbeiro" class="form-label">Barbeiro:</label>
-            @Html.DropDownListFor(
-                    item => item.BarbeiroID,
-                    new SelectList(ViewBag.Barbeiro, "BarbeiroID", "Nome"),
-                    "-- Selecione --",
-                    new { @class = "form-control" }
-                )
-            
-        </div>
-        <hr />
+            <div class="col-md-3">
+                <label for="Barbearia" class="form-label">Barbearia:</label>
+                @Html.DropDownListFor(
+                        item => item.BarbeariaID,
+                        new SelectList(ViewBag.Barbearia, "BarbeariaID", "Nome"),
+                        "-- Selecione --",
+                        new { @class = "form-control" }
+                    )
+                <div class="col-md-5">
+                    <label for="Barbeiro" class="form-label">Barbeiro:</label>
+                    @Html.DropDownListFor(
+                            item => item.BarbeiroID,
+                            new SelectList(ViewBag.Barbeiro, "BarbeiroID", "Nome"),
+                            "-- Selecione --",
+                            new { @class = "form-control" }
+                        )
 
-        <a href="#" class="btn btn-secondary" onclick="javascript:history.back()">
-            VOLTAR
-        </a>
+                </div>
+                <hr />
 
-        <button type="submit" class="btn btn-success float-right">
-            SALVAR
-        </button>
+                <a href="#" class="btn btn-secondary" onclick="javascript:history.back()">
+                    VOLTAR
+                </a>
+
+                <button type="submit" class="btn btn-success float-right">
+                    SALVAR
+                </button>
 
     </form>
 </body>
